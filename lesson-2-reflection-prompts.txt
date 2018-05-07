@@ -1,5 +1,6 @@
 What happens when you initialize a repository?
 git registers the directory as a repository
+and waits for you to make the first commit(initial commit)
 
 
 Why do you need to do it?
