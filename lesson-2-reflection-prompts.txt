@@ -17,6 +17,8 @@ to add it your staging area by "git add ." then commit the change
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+you can use the staging area to make logical change by selecting specific file that has
+been affected logically and then adding it to the staging area then commiting it.
 
 
 
