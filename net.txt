@@ -1,0 +1,23 @@
+*create new user 
+net user newusername pword /add
+
+*change password 
+net user username *newpassword
+
+*make user administrator
+net localgroup administrators username /add
+
+
+*create hotspot
+netsh wlan set hostednetwork mode=allow ssid=tests key=tests123
+
+netsh wlan start hostednetwork
+
+*view previous connected wifi password
+-first view the prev connected networks with to get list
+netsh wlan show profile
+-second choose network to view password of e.g
+netsh wlan show profile TCX key=clear
+
+wyux0164(hassan's key)
+
