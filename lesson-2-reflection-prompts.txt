@@ -6,8 +6,13 @@ and waits for you to make the first commit(initial commit)
 Why do you need to do it?
 
 
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+the staging area is different from a working directory because it tells you which files
+are ready to be added to your repository on your next commit, but first you have
+to add it your staging area by "git add ." then commit the change
+
 
 
 How can you use the staging area to make sure you have one commit per logical
