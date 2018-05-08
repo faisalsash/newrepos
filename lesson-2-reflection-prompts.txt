@@ -34,12 +34,15 @@ merge it to your master for a total change(well atleast that just one reason to 
 
 How would branches help?
 
+branches will help in organising your changes type, classifying certain type of change to 
+areas that logically related.
 
 
 
 How do the diagrams help you visualize the branch structure?
 
-
+It help you identify which area belong to a certain category, without having to mix unrelated
+areas.
 
 
 What is the result of merging two branches together? 
